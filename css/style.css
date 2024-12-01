@@ -6,6 +6,7 @@ body {
 }
 body #page {
 	background: url("../images/bg-home.jpg") no-repeat scroll center top #000000;
+	background-size: cover;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
@@ -65,8 +66,9 @@ img {
 	width: 304px;
 }
 #header div a.logo .logoImg{
-	width: 100px;
+	width: 90px;
 	padding-left: 100px;
+	margin-top: 1px;
 }
 #header div a img {
 	display: block;
@@ -306,29 +308,24 @@ img {
     max-width: 939px;
 }
 #body.home .header div .container-general .gallery-wrap  .item {
+	  padding:5px;
       flex: 1;
-      height: 160px;
+      height: 260px;
       background-position: center;
       background-size: cover;
       background-repeat: none;
       transition: all 0.8s ease;
 }
+
+#body.home .header div .container-general .gallery-wrap  .item .img-fluid {
+	
+	height: 250px;
+}
 #body.home .header div .container-general .gallery-wrap  .item:hover {
-        flex: 4;
+		flex:1.5;
       }
 
-#body.home .header div .wrap-effect-1 .item {
-      background-image: url('../images/project-image4.jpg');
-    }
-#body.home .header div .wrap-effect-1 .item:nth-of-type(2) {
-      background-image: url('../images/machine_learning.jpg');
-    }
-#body.home .header div .wrap-effect-1 .item:nth-of-type(3) {
-      background-image: url('../images/drone.jpg');
-    }
-#body.home .header div .wrap-effect-1 .item:last-of-type {
-      background-image: url('../images/project-image2.jpg');
-    }
+
 
 #body.home .header div ul li a {
 	display: block;
